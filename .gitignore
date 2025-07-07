@@ -1,0 +1,15 @@
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+*.ipynb_checkpoints
+
+# Data and models
+data/
+models/
+
+# OS-specific
+.DS_Store
+
+# Virtual environments
+env/
+.venv/
