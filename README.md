@@ -8,6 +8,7 @@ Includes:
 - Optional cloud deployment (AWS-ready)
 
 ## Project Structure
+```
 housing-price-predictor/
 ├── data/               # Raw and processed data
 ├── docs/               # Documentation
@@ -17,6 +18,7 @@ housing-price-predictor/
 ├── Dockerfile
 ├── requirements.txt
 └── README.md
+```
 
 ## Dataset
 - **Source**: Ames Housing Dataset (Kaggle)
@@ -46,7 +48,7 @@ housing-price-predictor/
 | XGBoost (Best)     | 30,389.81| 21,186.84 | 0.8492 |
 
 ## Local Setup (Non-Docker)
-git clone https://github.com/yourusername/housing-price-predictor.git
+git clone https://github.com/iluvcoding123/housing-price-predictor.git
 cd housing-price-predictor
 python -m venv .venv
 source .venv/bin/activate   # or .venv\Scripts\activate on Windows
