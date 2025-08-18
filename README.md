@@ -4,7 +4,7 @@ An end-to-end machine learning pipeline for predicting home sale prices using th
 Includes:
 - Data cleaning, preprocessing, and feature engineering
 - Model training, tuning, and evaluation (Linear Regression, Random Forest, XGBoost)
-- Deployment as a Flask REST API (Dockerized)
+- Deployment as a FastAPI REST API (Dockerized)
 - Optional cloud deployment (AWS-ready)
 
 ## Project Structure
@@ -28,7 +28,7 @@ housing-price-predictor/
 
 ## Technologies Used
 - Python (Pandas, NumPy, Scikit-learn, XGBoost)
-- Flask (REST API)
+- FastPI (REST API)
 - Docker
 - Matplotlib & Seaborn (Visualization)
 - Joblib (Model persistence)
